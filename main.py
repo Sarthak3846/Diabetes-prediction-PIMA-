@@ -6,7 +6,7 @@ from tensorflow.keras import layers
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv("C:\\Users\\Sarthak Tyagi\\Downloads\\diabetes.csv")
+df = pd.read_csv("C:\\Downloads\\diabetes.csv")
 
 X = df.drop('Outcome',axis=1)
 y = df['Outcome']
